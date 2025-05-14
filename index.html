@@ -9,40 +9,63 @@
 </head>
 <body>
   <header>
-    <h1>Santo Doce Gourmet</h1>
-    <nav>
-      <a href="#produtos">Produtos</a>
-      <a href="https://linktr.ee/santodoce.gourmet" target="_blank">Linktree</a>
-      <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5513997574242" target="_blank">Contato</a>
-    </nav>
+    <div class="header-content">
+      <div class="logo-title">
+        <img src="img/logo.png" alt="Logo Santo Doce" class="header-logo">
+        <h1 class="main-title">Santo Doce</h1>
+      </div>
+      <nav>
+        <a href="#produtos">Produtos</a>
+        <a href="#categorias">Categorias</a>
+        <a href="https://linktr.ee/santodoce.gourmet" target="_blank">Linktree</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
   </header>
 
-  <section class="hero">
-    <img src="img/logo.png" alt="Logo Santo Doce">
-    <p>Doces decorados, bolos, biscoitos e muito mais! Entregamos com amor de terça a domingo via iFood 🍓🎂</p>
-  </section>
+  <main class="container">
+    <section class="destaque">
+      <h2>Doces decorados, bolos, biscoitos e muito mais!</h2>
+      <p>Entregamos com amor de terça a domingo via iFood</p>
+      <hr>
+    </section>
 
-  <section id="produtos" class="products">
-    <div class="product">
-      <img src="img/torta.png" alt="Torta Banoffe">
-      <h3>Torta Banoffe</h3>
-    </div>
-    <div class="product">
-      <img src="img/morango.png" alt="Bolo de Morango">
-      <h3>Bolo de Morango</h3>
-    </div>
-    <div class="product">
-      <img src="img/bombons.png" alt="Bombons Decorados">
-      <h3>Bombons Decorados</h3>
-    </div>
-  </section>
+    <section id="categorias">
+      <div class="category-card especial">
+        <h3>Doces Especiais</h3>
+        <p>Delícias exclusivas para ocasiões especiais</p>
+      </div>
+      
+      <div class="category-card fino">
+        <h3>Doces Finos</h3>
+        <p>Sofisticação e elegância em cada mordida</p>
+      </div>
+    </section>
 
-  <footer>
-    <p>&copy; 2025 Santo Doce Gourmet - Todos os direitos reservados</p>
-    <div class="social-links">
-      <a href="https://www.instagram.com/santodoce.gourmet" target="_blank">Instagram</a>
-      <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5513997574242" target="_blank">WhatsApp</a>
-    </div>
-  </footer>
-</body>
-</html>
+    <section id="produtos">
+      <div class="product">
+        <img src="img/torta.png" alt="Torta Banoffe">
+        <h4>Torta Banoffe</h4>
+        <p class="price">R$ 89,90</p>
+        <p class="description">Base de biscoito, doce de leite e banana caramelizada</p>
+      </div>
+
+      <div class="product">
+        <img src="img/morango.png" alt="Bolo de Morango">
+        <h4>Bolo de Morango</h4>
+        <p class="price">R$ 120,00</p>
+        <p class="description">Camadas de massa branca com recheio de creme e morangos frescos</p>
+      </div>
+
+      <div class="product">
+        <img src="img/bombons.png" alt="Bombons Decorados">
+        <h4>Bombons Decorados</h4>
+        <p class="price">R$ 45,00 (caixa com 12 unidades)</p>
+        <p class="description">Chocolate meio amargo com recheios surpresa</p>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contato">
+    <hr>
+   
