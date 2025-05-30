@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Santo Doce Gourmet</title>
-  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,8 +15,11 @@
         <h1 class="main-title">Santo Doce</h1>
       </div>
       <nav>
+        <a href="#home">Home</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#combos">Combos</a>
         <a href="#produtos">Produtos</a>
-        <a href="#categorias">Categorias</a>
+        <a href="#recheios">Recheios</a>
         <a href="https://linktr.ee/santodoce.gourmet" target="_blank">Linktree</a>
         <a href="#contato">Contato</a>
       </nav>
@@ -24,48 +27,126 @@
   </header>
 
   <main class="container">
-    <section class="destaque">
+    <section id="home" class="destaque">
       <h2>Doces decorados, bolos, biscoitos e muito mais!</h2>
-      <p>Entregamos com amor de terça a domingo via iFood</p>
+      <p>Entregamos com amor de terça a domingo via iFood 🍰</p>
+      <a href="https://wa.me/5513997574242" class="botao-pedido">Faça seu pedido agora!</a>
       <hr>
     </section>
 
-    <section id="categorias">
-      <div class="category-card especial">
-        <h3>Doces Especiais</h3>
-        <p>Delícias exclusivas para ocasiões especiais</p>
-      </div>
+    <section id="sobre">
+      <h2>Sobre Nós</h2>
+      <p class="sobre-texto">“Bem-vindo à nossa confeitaria! Oferecemos uma ampla variedade de doces e bolos feitos com ingredientes frescos e de qualidade, decorados com arte e perfeição. Temos opções personalizadas para casamentos, aniversários e eventos especiais.”</p>
       
-      <div class="category-card fino">
-        <h3>Doces Finos</h3>
-        <p>Sofisticação e elegância em cada mordida</p>
+      <div class="diferenciais">
+        <div class="diferencial-card">
+          <h3>Atendimento Personalizado</h3>
+          <p>Nossa equipe ajuda você a escolher a melhor opção para sua ocasião</p>
+        </div>
+        <div class="diferencial-card">
+          <h3>Qualidade Premium</h3>
+          <p>Ingredientes selecionados e preparo artesanal</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="combos">
+      <h2>Nossos Combos</h2>
+      <div class="tabela-combos">
+        <table>
+          <tr>
+            <th>10 Pessoas</th>
+            <th>20 Pessoas</th>
+            <th>30 Pessoas</th>
+            <th>40 Pessoas</th>
+            <th>50 Pessoas</th>
+          </tr>
+          <tr>
+            <td>1.200g de bolo</td>
+            <td>2.200g de bolo</td>
+            <td>3.200g de bolo</td>
+            <td>4.200g de bolo</td>
+            <td>5.200g de bolo</td>
+          </tr>
+          <tr>
+            <td>40 docinhos</td>
+            <td>50 docinhos</td>
+            <td>90 docinhos</td>
+            <td>100 docinhos</td>
+            <td>150 docinhos</td>
+          </tr>
+        </table>
       </div>
     </section>
 
     <section id="produtos">
-      <div class="product">
-        <img src="img/torta.png" alt="Torta Banoffe">
-        <h4>Torta Banoffe</h4>
-        <p class="price">R$ 89,90</p>
-        <p class="description">Base de biscoito, doce de leite e banana caramelizada</p>
-      </div>
+      <h2>Nossos Produtos</h2>
+      <div class="product-grid">
+        <div class="product">
+          <img src="img/torta.png" alt="Torta Banoffe">
+          <h4>Torta Banoffe</h4>
+          <p class="price">R$ 89,90</p>
+          <p class="description">Base de biscoito, doce de leite e banana caramelizada</p>
+        </div>
 
-      <div class="product">
-        <img src="img/morango.png" alt="Bolo de Morango">
-        <h4>Bolo de Morango</h4>
-        <p class="price">R$ 120,00</p>
-        <p class="description">Camadas de massa branca com recheio de creme e morangos frescos</p>
-      </div>
+        <div class="product">
+          <img src="img/morango.png" alt="Bolo de Morango">
+          <h4>Bolo de Morango</h4>
+          <p class="price">R$ 120,00</p>
+          <p class="description">Camadas de massa branca com recheio de creme e morangos frescos</p>
+        </div>
 
-      <div class="product">
-        <img src="img/bombons.png" alt="Bombons Decorados">
-        <h4>Bombons Decorados</h4>
-        <p class="price">R$ 45,00 (caixa com 12 unidades)</p>
-        <p class="description">Chocolate meio amargo com recheios surpresa</p>
+        <div class="product">
+          <img src="img/bombons.png" alt="Bombons Decorados">
+          <h4>Bombons Decorados</h4>
+          <p class="price">R$ 45,00 (12 unidades)</p>
+          <p class="description">Chocolate meio amargo com recheios surpresa</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="recheios">
+      <h2>Recheios Exclusivos</h2>
+      <div class="recheios-grid">
+        <div class="recheio-item">Brigadeiro Gourmet</div>
+        <div class="recheio-item">Ninho com Nutella</div>
+        <div class="recheio-item">Maracujá</div>
+        <div class="recheio-item">Choconinho</div>
+        <div class="recheio-item">Dois Amores</div>
+        <div class="recheio-item">Oreo</div>
+      </div>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <div class="contato-content">
+        <div class="info-contato">
+          <p>Telefone: (13) 99757-4242</p>
+          <p>Email: contato@santodoce.com</p>
+        </div>
+        <form class="contato-form">
+          <input type="text" placeholder="Nome" required>
+          <input type="email" placeholder="Email" required>
+          <textarea placeholder="Mensagem" rows="5" required></textarea>
+          <button type="submit">ENVIAR MENSAGEM</button>
+        </form>
       </div>
     </section>
   </main>
 
-  <footer id="contato">
+  <footer>
     <hr>
-   
+    <p>© 2025 Santo Doce Gourmet - Todos os direitos reservados</p>
+    <div class="social">
+      <a href="https://www.instagram.com/santodoce.gourmet" target="_blank">
+        <img src="img/instagram.png" alt="Instagram" class="social-icon">
+        @santodoce.gourmet
+      </a>
+      <a href="https://wa.me/5513997574242" target="_blank">
+        <img src="img/whatsapp.png" alt="WhatsApp" class="social-icon">
+        (13) 99757-4242
+      </a>
+    </div>
+  </footer>
+</body>
+</html>
